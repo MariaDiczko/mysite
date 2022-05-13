@@ -1,0 +1,46 @@
+/* id ansprechen > #
+   class ansprechen > .
+   tag ansprechen > einfach so */
+
+html {
+    font-size: 15px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
+    font-family:'Macondo', cursive; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+div{
+    text-align: justify;
+}
+h1#title {
+    padding: 30px;
+    border: #ee2658;
+    border-style: double;
+}
+
+h3{
+    color: blueviolet;
+}
+ul{
+    list-style: circle;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    border: darkmagenta;
+    border-style: dashed;
+}
+
+/* Bild zentrieren */
+img {
+    display: block;
+    margin: 15px auto;
+}
+
+.container{
+    padding: 20px 0;
+    column-count: 2;
+}
